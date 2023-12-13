@@ -1,0 +1,29 @@
+html, body {
+  background: url("Light Green Background.png");
+  animation-iteration-count: infinite;
+  animation-name: spin;
+  animation-duration: 500s;
+  overflow: hidden;
+  font-family: 'Courier';
+}
+  .container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    isolation: isolate;
+  }
+
+  .gradient {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(158deg, rgba(21, 31, 31, 31) 2%, rgba(37, 46, 44, 44), transparent 70%);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }  
+
+img {
+  position: fixed;
+  right: 1%;
+}
+
